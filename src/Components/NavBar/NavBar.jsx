@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import './NavBar.css';
 
 const NavBar = () => {
     const [click1, setClick1] = useState(false)
@@ -24,7 +23,7 @@ const NavBar = () => {
         setClick3(true)
     }
     return (
-        <div className="NavBar-container">
+        <div>
             <div className="flex justify-between items-center">
                 <div>
                     <img src="https://i.ibb.co/DYyG0jF/Logo.png" alt="" />
@@ -35,12 +34,6 @@ const NavBar = () => {
                     <li onClick={handleUnderline3} className={click3 ? 'underline text-red-600' : ''}><NavLink to="/statistics">Statistics</NavLink></li>
                 </ul>
             </div>
-            <h2 className="display: absolute left-[33%] bottom-[90%] text-5xl font-bold text-center">I Grow By Helping People In Need</h2>
-            <div className="display: absolute left-[44%] top-[45%]">
-                <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
-                
-            </div>
-            <button className="display: absolute btn btn-error text-white left-[54%] top-[45%]">Search</button>
         </div>
     );
 };
