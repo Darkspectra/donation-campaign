@@ -1,0 +1,16 @@
+.NavBar-container {
+    display: relative;
+    width: 100%;
+    background-image: url('https://e0.pxfuel.com/wallpapers/694/232/desktop-wallpaper-sharing-is-caring-half-of-all-gofundme-donations-are-for-medical-charity.jpg');
+    background-size: cover;
+    padding-bottom: 600px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Change the color and opacity as needed */
+  }
