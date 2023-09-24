@@ -2,6 +2,7 @@
     {
      "id": 1,
      "picture": "https://i.ibb.co/FYR29F5/Rectangle-4284.png",
+     "pic_details": "https://i.ibb.co/1qsmWp0/Health.png",
      "title": "Health",
      "category": "Clean water for children",
      "color_button_bg": "#0052FF33",
@@ -13,6 +14,7 @@
     {
      "id": 2,
      "picture": "https://i.ibb.co/DrGHDqp/Rectangle-4287-1.png",
+     "pic_details": "https://i.ibb.co/FHR8V0z/Education.png",
      "title": "Education",
      "category": "Good Education",
      "color_button_bg": "#FF444A33",
@@ -24,6 +26,7 @@
     {
      "id": 3,
      "picture": "https://i.ibb.co/drD6ZmG/Rectangle-4287.png",
+     "pic_details": "https://i.ibb.co/Y7JTwR7/Clothing.png",
      "title": "Clothing",
      "category": "Used clothing drive",
      "color_button_bg": "#79C23F33",
@@ -35,6 +38,7 @@
     {
      "id": 4,
      "picture": "https://i.ibb.co/LdvDmS2/Rectangle-4287-2.png",
+     "pic_details": "https://i.ibb.co/FqR5b8L/Food.png",
      "title": "Food",
      "category": "Better food for everyone",
      "color_button_bg": "#F8714733",
@@ -46,6 +50,7 @@
     {
      "id": 5,
      "picture": "https://i.ibb.co/LdvDmS2/Rectangle-4287-2.png",
+     "pic_details": "https://i.ibb.co/FqR5b8L/Food.png",
      "title": "Food",
      "category": "Better food for everyone",
      "color_button_bg": "#F8714733",
@@ -57,6 +62,7 @@
    {
     "id": 6,
     "picture": "https://i.ibb.co/drD6ZmG/Rectangle-4287.png",
+    "pic_details": "https://i.ibb.co/Y7JTwR7/Clothing.png",
     "title": "Clothing",
     "category": "Used clothing drive",
     "color_button_bg": "#79C23F33",
@@ -68,6 +74,7 @@
   {
     "id": 7,
     "picture": "https://i.ibb.co/DrGHDqp/Rectangle-4287-1.png",
+    "pic_details": "https://i.ibb.co/FHR8V0z/Education.png",
     "title": "Education",
     "category": "Good Education",
     "color_button_bg": "#FF444A33",
@@ -79,6 +86,7 @@
   {
     "id": 8,
     "picture": "https://i.ibb.co/FYR29F5/Rectangle-4284.png",
+    "pic_details": "https://i.ibb.co/1qsmWp0/Health.png",
     "title": "Health",
     "category": "Clean water for children",
     "color_button_bg": "#0052FF33",
@@ -90,6 +98,7 @@
   {
     "id": 9,
     "picture": "https://i.ibb.co/FYR29F5/Rectangle-4284.png",
+    "pic_details": "https://i.ibb.co/1qsmWp0/Health.png",
     "title": "Health",
     "category": "Clean water for children",
     "color_button_bg": "#0052FF33",
@@ -101,6 +110,7 @@
    {
     "id": 10,
     "picture": "https://i.ibb.co/DrGHDqp/Rectangle-4287-1.png",
+    "pic_details": "https://i.ibb.co/FHR8V0z/Education.png",
     "title": "Education",
     "category": "Good Education",
     "color_button_bg": "#FF444A33",
@@ -112,6 +122,7 @@
    {
     "id": 11,
     "picture": "https://i.ibb.co/drD6ZmG/Rectangle-4287.png",
+    "pic_details": "https://i.ibb.co/Y7JTwR7/Clothing.png",
     "title": "Clothing",
     "category": "Used clothing drive",
     "color_button_bg": "#79C23F33",
@@ -123,6 +134,7 @@
    {
     "id": 12,
     "picture": "https://i.ibb.co/LdvDmS2/Rectangle-4287-2.png",
+    "pic_details": "https://i.ibb.co/FqR5b8L/Food.png",
     "title": "Food",
     "category": "Better food for everyone",
     "color_button_bg": "#F8714733",
