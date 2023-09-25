@@ -11,7 +11,7 @@ const Category = () => {
     }, [])
     return (
         <div>
-            <div className="grid grid-cols-4 gap-4 my-14">
+            <div className="grid grid-cols-4 gap-20 my-14">
                 {
                     fetchData.map((card, idx) => <Card key={idx} card={card}></Card>)
                 }
