@@ -30,7 +30,7 @@ const Donation = () => {
                     donated.slice(0, showAll).map((donate, idx) => <DisplayDonation key={idx} donate={donate}></DisplayDonation>)
                 }
             </div>
-            <div className={`${(showAll == donated.length) ?  'hidden' : ''} text-center`}>
+            <div className={`${(showAll >= donated.length) ?  'hidden' : ''} text-center`}>
                 <button onClick={()=> setShowAll(donated.length)} className="btn btn-primary">Show All</button>
             </div>
         </div>

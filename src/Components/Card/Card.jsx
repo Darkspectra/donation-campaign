@@ -5,11 +5,11 @@ const Card = ({ card }) => {
     return (
         <div>
             <Link to={`/details/${id}`}>
-                <div className={`card card-compact bg-base-100 shadow-xl bg-[${color_card_bg}]`}>
+                <div style={{backgroundColor: color_card_bg}} className="card card-compact bg-base-100 shadow-xl">
                     <figure><img className="w-full" src={picture} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <p className={`p-2 bg-[${color_button_bg}] w-[30%] rounded text-[${color_text_button}]`}>{title}</p>
-                        <h2 className={`card-title text-[${color_text_button}] font-semibold`}>{category}</h2>
+                        <p style={{backgroundColor: color_button_bg, color: color_text_button }} className="p-2 w-[30%] rounded">{title}</p>
+                        <h2 style={{color: color_text_button }} className="card-title font-semibold">{category}</h2>
                     </div>
                 </div>
             </Link>

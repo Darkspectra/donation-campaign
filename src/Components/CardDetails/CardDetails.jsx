@@ -18,7 +18,7 @@ const CardDetails = () => {
         <div>
             <img className="w-[60%] mx-auto" src={card.pic_details} />
             <div className="display: absolute left-[26%] bottom-[30%] bg-slate-700 pr-[43.5%] bg-opacity-40">
-                <button onClick={handleToast} className={`bg-[${card.color_text_button}] text-white p-3 rounded`}>Donate {card.price}</button>
+                <button style={{backgroundColor: card.color_text_button}} onClick={handleToast} className=" text-white p-3 rounded">Donate {card.price}</button>
             </div>
             <div className="mt-5 mx-auto">
                 <h2 className="text-4xl font-bold">{card.title}</h2>
